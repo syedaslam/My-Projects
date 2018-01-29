@@ -4,11 +4,11 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import com.Sf.util.SingleTonSessionFactory;
+import com.hibernate.dao.SingletonClass;
 
 public class DeleteDAO {
 public static void main(String[] args) {
-	SessionFactory sf=SingleTonSessionFactory.getSF();
+	SessionFactory sf=SingletonClass.getSf();
 	Session sess=sf.openSession();
 	String hql="delete from SuperMarketDTO where slNo=:slno";
 	Query qry=sess.createQuery(hql);

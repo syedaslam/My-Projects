@@ -13,6 +13,6 @@
 	<classpathentry kind="lib" path="/Hibernate_firstlook/lib/jboss-logging-3.3.0.Final.jar"/>
 	<classpathentry kind="lib" path="/Hibernate_firstlook/lib/jta-1.1.jar"/>
 	<classpathentry kind="lib" path="/Hibernate_firstlook/lib/mysql-connector-java-5.1.5-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/JSP-SMALLG/Desktop/framework_morning/hibernate Jars/SessionFactoryUtil.jar"/>
+	<classpathentry kind="lib" path="D:/1 SOFTWARES/hibernate Jars/SessionFactory.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

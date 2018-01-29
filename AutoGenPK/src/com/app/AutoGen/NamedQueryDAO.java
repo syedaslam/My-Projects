@@ -6,13 +6,13 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import com.Sf.util.SingleTonSessionFactory;
+import com.hibernate.dao.SingletonClass;
 
 public class NamedQueryDAO {
 
 	public static void main(String[] args) {
 		
-		SessionFactory sf=SingleTonSessionFactory.getSF();
+		SessionFactory sf=SingletonClass.getSf();
 		Session sess=sf.openSession();
 		Query qry=sess.getNamedQuery("getBySlNo");
 		qry.setParameter("slno", 3);
